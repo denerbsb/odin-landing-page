@@ -63,7 +63,7 @@ a {
   color: #f9faf8;
 }
 
-#subtext {
+.subtext {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -80,4 +80,22 @@ button {
 
 img {
   max-height: 233px;
+}
+
+.information-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+}
+
+.subtext-square {
+  font-size: 18px;
+  color: #1f2937;
 }
