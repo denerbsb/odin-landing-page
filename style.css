@@ -47,7 +47,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   width: 50%;
-  gap: 10px;
+  gap: 15px;
 }
 
 .header-body-right {
@@ -73,13 +73,21 @@ button {
   text-align: center;
   background-color: #3882f6;
   color: #e5e7eb;
-  padding: 5px 20px;
+  padding: 5px 25px;
   border-radius: 8px;
   border: none;
 }
 
 img {
-  max-height: 233px;
+  max-height: 243px;
+}
+
+.information-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 350px;
+  gap: 50px;
 }
 
 .information-title {
@@ -88,14 +96,30 @@ img {
   color: #1f2937;
 }
 
-.square {
-  width: 150px;
-  height: 150px;
-  border: 2px solid #3882f6;
-  border-radius: 8px;
+.information-squares {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
-.subtext-square {
+.square-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.square {
+  width: 180px;
+  height: 180px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+.square-subtext {
   font-size: 18px;
   color: #1f2937;
+  width: 180px;
+  text-align: center;
 }
