@@ -123,3 +123,26 @@ img {
   width: 180px;
   text-align: center;
 }
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 350px;
+  background-color: #e5e7eb;
+  gap: 10px;
+}
+
+.quote {
+  font-size: 36px light;
+  font-style: italic;
+  color: #1f2937;
+  width: 50%;
+}
+
+.quote-autor {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937;
+}
