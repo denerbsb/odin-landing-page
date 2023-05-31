@@ -146,3 +146,42 @@ img {
   font-weight: bold;
   color: #1f2937;
 }
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 350px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #3882f6;
+  padding: 40px 80px;
+  border-radius: 10px;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.footer-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.footer-button {
+  font-size: 18px;
+  text-align: center;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 5px 20px;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #e5e7eb;
+}
